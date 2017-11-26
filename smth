@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exersiseStartNow
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter your First name: ");
+            string firstName = Console.ReadLine();
+            Console.Write("Enter your Last name: ");
+            string LastName = Console.ReadLine();
+            Console.Write("Enter your Age: ");
+            int Age = int.Parse(Console.ReadLine());
+            Console.Write("Enter your Gender (f/m) name: ");
+            string Gender = Console.ReadLine();
+            Console.Write("Enter your ID: ");
+            int ID = int.Parse(Console.ReadLine());
+            Console.Write("Enter your   e  Employee unique number : ");
+            uint uniqueNumber = uint.Parse(Console.ReadLine());
+            Console.WriteLine("\n\n Employee Data \n"
+                +"First name: {0}\n"
+                +"Last name: {1}\n"
+                +"Age : {2}\n"
+                +"Gender {3}\n"
+                +"ID number: {4}\n"
+                +"Unique Employee Number: {5}",
+                firstName,LastName,Age,Gender,ID,uniqueNumber
+                );
+                }
+                }
+                }
